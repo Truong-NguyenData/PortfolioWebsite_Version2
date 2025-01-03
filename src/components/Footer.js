@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-            <p>Copyright © Truong Nguyen 2024. All Rights Reserved</p>
+            <p>Copyright © Truong Nguyen 2025. All Rights Reserved</p>
         </Row>
       </Container>
     </footer>
