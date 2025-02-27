@@ -50,23 +50,23 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={python} alt="Image" />
+                  <img src={python} alt=""/>
                   <h5>Python</h5>
                 </div>
                 <div className="item">
-                  <img src={r} alt="Image" />
+                  <img src={r} alt="" />
                   <h5>R</h5>
                 </div>
                 <div className="item">
-                  <img src={java} alt="Image" />
+                  <img src={java} alt="" />
                   <h5>Java</h5>
                 </div>
                 <div className="item">
-                  <img src={c} alt="Image" />
+                  <img src={c} alt="" />
                   <h5>C++</h5>
                 </div>
                 <div className="item">
-                  <img src={sql} alt="Image" />
+                  <img src={sql} alt="" />
                   <h5>SQL</h5>
                 </div>
               </Carousel>
@@ -80,31 +80,31 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={pandas} alt="Image" />
+                  <img src={pandas} alt="" />
                   <h5>Pandas</h5>
                 </div>
                 <div className="item">
-                  <img src={numpy} alt="Image" />
+                  <img src={numpy} alt="" />
                   <h5>NumPy</h5>
                 </div>
                 <div className="item">
-                  <img src={matplotlib} alt="Image" />
+                  <img src={matplotlib} alt="" />
                   <h5>Matplotlib</h5>
                 </div>
                 <div className="item">
-                  <img src={seaborn} alt="Image" />
+                  <img src={seaborn} alt="" />
                   <h5>Seaborn</h5>
                 </div>
                 <div className="item">
-                  <img src={plotly} alt="Image" />
+                  <img src={plotly} alt="" />
                   <h5>Plotly</h5>
                 </div>
                 <div className="item">
-                  <img src={tableau} alt="Image" />
+                  <img src={tableau} alt="" />
                   <h5>Tableau</h5>
                 </div>
                 <div className="item">
-                  <img src={powerbi} alt="Image" />
+                  <img src={powerbi} alt="" />
                   <h5>Power BI</h5>
                 </div>
               </Carousel>
@@ -112,7 +112,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };
