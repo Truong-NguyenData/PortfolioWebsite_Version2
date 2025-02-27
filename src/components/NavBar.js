@@ -50,7 +50,7 @@ export const NavBar = () => {
               <a href="https://www.linkedin.com/in/truongng/" target="_blank" rel="noopener noreferrer">
                 <img src={navIcon1} alt="Social Icon 1" />
               </a>
-              <a href="https://github.com/TruongNg1" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/truongng1" target="_blank" rel="noopener noreferrer">
                 <img src={navIcon2} alt="Social Icon 2" />
               </a>
             </div>

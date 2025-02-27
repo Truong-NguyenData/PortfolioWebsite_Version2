@@ -30,21 +30,17 @@ const handleConnectClick = () => {
           <Col md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible}>
                   
                   <p className="about-description">
-                    Hi, I’m Truong! I’m passionate about uncovering insights from data and building impactful solutions using machine learning and data visualization.
+                    I’m passionate about uncovering insights from data and building impactful solutions using machine learning and data visualization.
                   </p>
                   <div className="education">
                     <h5 className="education-heading">Education</h5>
                     <p>San Jose State University</p>
                     <p>Bachelor of Science in Data Science</p>
-                    <p>Expected Graduation: May 2025</p>
+                    <p>Expected Graduation: December 2025</p>
                   </div>
-                  < br />
-                  <Button variant="primary" onClick={handleConnectClick}>
-                    Let’s Talk
-                  </Button>
                 </div>}
             </TrackVisibility>
           </Col>

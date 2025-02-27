@@ -234,11 +234,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+              url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -281,9 +283,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button:hover svg {
   margin-left: 25px;
-}
-.banner img {
-  animation: updown 3s linear infinite;
 }
 @keyframes updown {
     0% {
@@ -468,7 +467,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #5a23ff -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #b198fc -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -622,8 +621,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .picture-frame {
-  border: 5px solid #f3f3f3;
-  border-radius: 30%;
+  border: none;
+  border-radius: 0;
   overflow: hidden;
   width: 400px;
   height: 400px;

@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Data Scientist", "Data Analyst", "Data Engineer", "Business Intelligence Analyst", "Machine Learning Enthusiast"];
+  const toRotate = [ "Data Scientist", "Data Analyst", "Data Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,11 +54,11 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className={isVisible}>
                 <h4>{`Hello, I'm`} </h4>
-                <h1>{`Truong Nguyen`} </h1>
+                <h1>{`Eric Nguyen`} </h1>
                   <h2>
-                  <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Scientist", "Data Analyst", "Data Engineer", "Business Intelligence Analyst", "Machine Learning Enthusiast" ]'><span className="wrap">{text}</span></span>
+                  <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Scientist", "Data Analyst", "Data Engineer"]'><span className="wrap">{text}</span></span>
                   </h2>
                   <button onClick={() => console.log('contact')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
@@ -67,7 +67,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div className={isVisible ? "visible" : "hidden"}>
                   <img src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
