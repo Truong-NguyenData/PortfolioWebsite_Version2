@@ -14,7 +14,7 @@ export const Contact = () => {
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
+  const [status] = useState({});
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://formspree.io/f/xjkvnaop", {
+    await fetch("https://formspree.io/f/xjkvnaop", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

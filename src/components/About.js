@@ -1,17 +1,9 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import myPicture from "../assets/img/my-picture.png"; 
 
 export const About = () => {
-const handleConnectClick = () => {
-    const connectSection = document.getElementById("connect");
-    if (connectSection) {
-        connectSection.scrollIntoView({ behavior: "smooth" });
-    }
-    };
-    
-
   return (
     <section className="about" id="about">
       <p className="section_text_p1">Get To Know More</p>
@@ -31,7 +23,6 @@ const handleConnectClick = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible}>
-                  
                   <p className="about-description">
                     I’m passionate about uncovering insights from data and building impactful solutions using machine learning and data visualization.
                   </p>
