@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import React from 'react';
 
 export const Projects = () => {
 
@@ -46,13 +47,13 @@ export const Projects = () => {
                     </Tab.Pane>
                     */}
                     <Tab.Pane eventKey="first">
-                      <p>Coming soon 😭</p>
+                      <p>Coming soon</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Almost I swear 😩</p>
+                      <p>Almost I swear</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Really? 🫣</p>
+                      <p>Really?</p>
                     </Tab.Pane>
                   </Tab.Content>
                   

@@ -13,6 +13,7 @@ import powerbi from "../assets/img/powerbi.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png";
+import React from 'react';
 
 export const Skills = () => {
   const responsive = {

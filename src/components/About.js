@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import myPicture from "../assets/img/my-picture.png"; 
+import React from 'react';
 
 export const About = () => {
   return (

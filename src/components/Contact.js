@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import React from 'react';
 
 export const Contact = () => {
   const formInitialDetails = {
